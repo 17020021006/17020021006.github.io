@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	    <div id="gitalk-container">
+    	
+    	
+    	<script>
+			  var gitalk = new Gitalk({
+			  clientID: '97c25ad3148314a5536d',
+			  clientSecret: '8f065dfc065722fce6e9a3ac3ff9015d214520c4',
+			  repo: 'https://github.com/17020021006/liuyanban',
+			  owner: '17020021006',
+			  admin: ['17020021006'],
+			  id: location.pathname,      // 请确保你的 location 连接小于 50 个字符，否则，插件会生成失败
+			  distractionFreeMode: false  // 专注模式
+			})
+
+               gitalk.render('gitalk-container')
+
+    	</script>
+    </div>
+</body>
+</html>
